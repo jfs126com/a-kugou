@@ -1,0 +1,126 @@
+@font-face {font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-style:normal;
+}
+.icon-zantingstop:before { content: "\e666"; }
+
+.icon-nextvideo-copy:before { content: "\e604"; }
+
+.icon-erji:before { content: "\e63f"; }
+
+.icon-youjiantou:before { content: "\e718"; }
+
+.icon-sousuo:before { content: "\e6aa"; }
+
+.icon-icon-system-fn-play:before { content: "\e62e"; }
+
+.icon-fanhui:before { content: "\e626"; }
+
+.logo-container{
+  position: fixed;
+  width: 100%;
+  height: 51px;
+  top: 0;
+  left: 0;
+  background: #FF4258;
+  overflow: hidden;
+  padding: 10px;
+  z-index: 1000;
+}
+.head-logo{
+  height: 100%;
+  float: left;
+}
+.head-logo img{
+  height: 100%;
+}
+.head-search{
+  float: right;
+  height: 30px;
+}
+.head-search img{
+  height: 100%;
+}
+.tabs{
+  margin-top: 103px;
+}
+.header-nav{
+  position: fixed;
+  top: 51px;
+  width: 100%;
+  border-bottom: solid 1px #E6E6E6;
+  z-index: 1000;
+  background: #ffffff;
+}
+.head-nav-ul{
+  overflow: hidden;
+}
+.head-nav-ul li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: #666666;
+}
+.active{
+  padding-bottom: 15px;
+  color: #FF4258!important;
+  border-bottom:solid 3px #FF4258;
+}
+.new-song-list ul li{
+  height: 50px;
+  line-height: 50px;
+  border-bottom:solid 1px #e5e5e5;
+  padding: 0 10px;
+  font-size: 15px;
+}
+.song-name{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  float: left;
+}
+.icontime{
+  font-style:normal;
+  float: right;
+  font-size: 14px;
+  color: #999999;
+}
+.play-panel{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 64px;
+  background: rgba(0,0,0,0.8);
+  color: #ffffff;
+  padding: 7px 10px;
+  display: flex;
+  flex-direction: row;
+}
+.mint-cell{padding-left: 10px;min-height: 52px}
+.rank .mint-cell-wrapper{padding: 10px 5px;}
+.plist .mint-cell-wrapper{padding: 10px 5px;}
+.ringtone .mint-cell-wrapper{padding: 5px 0 5px 5px}
+.singer_list .mint-cell-wrapper{padding: 10px 5px}
+.mint-cell-wrapper{
+  background-image: none;
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 14px;
+}
+
+.mint-cell-title{
+  padding-right: 10px;
+}
